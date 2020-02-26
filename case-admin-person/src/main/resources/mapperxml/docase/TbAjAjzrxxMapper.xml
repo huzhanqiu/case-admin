@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminperson.mapper.docase.TbAjAjzrxxMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminperson.entity.docase.TbAjAjzrxx">
+		<!--@mbg.generated-->
+		<!--@Table
+			TB_AJ_AJZRXX-->
+		<id column = "GLID" jdbcType = "VARCHAR" property = "glid"/>
+		<result column = "AJBH" jdbcType = "VARCHAR" property = "ajbh"/>
+		<result column = "RYBH" jdbcType = "VARCHAR" property = "rybh"/>
+		<result column = "BMJB" jdbcType = "VARCHAR" property = "bmjb"/>
+		<result column = "ZRZL" jdbcType = "VARCHAR" property = "zrzl"/>
+		<result column = "ZZSJ" jdbcType = "TIMESTAMP" property = "zzsj"/>
+		<result column = "ZZDD" jdbcType = "VARCHAR" property = "zzdd"/>
+		<result column = "ZZJG" jdbcType = "VARCHAR" property = "zzjg"/>
+		<result column = "BZ" jdbcType = "VARCHAR" property = "bz"/>
+		<result column = "ZRBS" jdbcType = "VARCHAR" property = "zrbs"/>
+		<result column = "BARDW" jdbcType = "VARCHAR" property = "bardw"/>
+		<result column = "YXX" jdbcType = "VARCHAR" property = "yxx"/>
+		<result column = "DJSJ" jdbcType = "TIMESTAMP" property = "djsj"/>
+		<result column = "DJDW" jdbcType = "VARCHAR" property = "djdw"/>
+		<result column = "DJR" jdbcType = "VARCHAR" property = "djr"/>
+		<result column = "DJRXM" jdbcType = "VARCHAR" property = "djrxm"/>
+		<result column = "XGSJ" jdbcType = "TIMESTAMP" property = "xgsj"/>
+		<result column = "XGDW" jdbcType = "VARCHAR" property = "xgdw"/>
+		<result column = "XGR" jdbcType = "VARCHAR" property = "xgr"/>
+		<result column = "XGRXM" jdbcType = "VARCHAR" property = "xgrxm"/>
+		<result column = "AJMJ" jdbcType = "VARCHAR" property = "ajmj"/>
+		<result column = "XM" jdbcType = "VARCHAR" property = "xm"/>
+		<result column = "XB" jdbcType = "VARCHAR" property = "xb"/>
+		<result column = "SFZH" jdbcType = "VARCHAR" property = "sfzh"/>
+		<result column = "CSRQ" jdbcType = "TIMESTAMP" property = "csrq"/>
+		<result column = "HJDQH" jdbcType = "VARCHAR" property = "hjdqh"/>
+	</resultMap>
+	<sql id = "Base_Column_List">
+		<!--@mbg.generated-->
+		GLID, AJBH, RYBH, BMJB, ZRZL, ZZSJ, ZZDD, ZZJG, BZ, ZRBS, BARDW, YXX, DJSJ, DJDW,
+		DJR, DJRXM, XGSJ, XGDW, XGR, XGRXM, AJMJ, XM, XB, SFZH, CSRQ, HJDQH
+	</sql>
+</mapper>

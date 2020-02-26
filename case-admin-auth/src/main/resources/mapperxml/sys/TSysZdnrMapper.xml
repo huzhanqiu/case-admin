@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminauth.mapper.sys.TSysZdnrMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminauth.entity.sys.TSysZdnr">
+		<!--@mbg.generated-->
+		<!--@Table
+			T_SYS_ZDNR-->
+		<result column = "C_ZDDM" jdbcType = "VARCHAR" property = "cZddm"/>
+		<result column = "C_DM" jdbcType = "VARCHAR" property = "cDm"/>
+		<result column = "C_MC" jdbcType = "VARCHAR" property = "cMc"/>
+		<result column = "N_YXX" jdbcType = "DECIMAL" property = "nYxx"/>
+		<result column = "C_YHM" jdbcType = "VARCHAR" property = "cYhm"/>
+		<result column = "C_NBDM" jdbcType = "VARCHAR" property = "cNbdm"/>
+		<result column = "C_BZ" jdbcType = "VARCHAR" property = "cBz"/>
+		<result column = "C_SJDM" jdbcType = "VARCHAR" property = "cSjdm"/>
+		<result column = "C_BJDM" jdbcType = "VARCHAR" property = "cBjdm"/>
+		<result column = "N_PX" jdbcType = "VARCHAR" property = "nPx"/>
+	</resultMap>
+</mapper>

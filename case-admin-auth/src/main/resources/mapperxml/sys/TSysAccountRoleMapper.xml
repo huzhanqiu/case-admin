@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminauth.mapper.sys.TSysAccountRoleMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminauth.entity.sys.TSysAccountRole">
+		<!--@mbg.generated-->
+		<!--@Table
+			T_SYS_ACCOUNT_ROLE-->
+		<result column = "USERID" jdbcType = "VARCHAR" property = "userid"/>
+		<result column = "ROLEID" jdbcType = "VARCHAR" property = "roleid"/>
+	</resultMap>
+</mapper>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminperson.mapper.docase.TbAjAjgxrMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminperson.entity.docase.TbAjAjgxr">
+		<!--@mbg.generated-->
+		<!--@Table
+			TB_AJ_AJGXR-->
+		<id column = "GLID" jdbcType = "VARCHAR" property = "glid"/>
+		<result column = "RYBH" jdbcType = "VARCHAR" property = "rybh"/>
+		<result column = "AJBH" jdbcType = "VARCHAR" property = "ajbh"/>
+		<result column = "GXRXM" jdbcType = "VARCHAR" property = "gxrxm"/>
+		<result column = "GXRXB" jdbcType = "VARCHAR" property = "gxrxb"/>
+		<result column = "GXRCSRQ" jdbcType = "TIMESTAMP" property = "gxrcsrq"/>
+		<result column = "GXRSFZH" jdbcType = "VARCHAR" property = "gxrsfzh"/>
+		<result column = "GXRCH" jdbcType = "VARCHAR" property = "gxrch"/>
+		<result column = "GXRHJDQH" jdbcType = "VARCHAR" property = "gxrhjdqh"/>
+		<result column = "GXRZY" jdbcType = "VARCHAR" property = "gxrzy"/>
+		<result column = "GXRLXFS" jdbcType = "VARCHAR" property = "gxrlxfs"/>
+		<result column = "YXX" jdbcType = "VARCHAR" property = "yxx"/>
+		<result column = "GXRLB" jdbcType = "VARCHAR" property = "gxrlb"/>
+		<result column = "DJR" jdbcType = "VARCHAR" property = "djr"/>
+		<result column = "DJSJ" jdbcType = "TIMESTAMP" property = "djsj"/>
+		<result column = "DJDW" jdbcType = "VARCHAR" property = "djdw"/>
+		<result column = "DJDWMC" jdbcType = "VARCHAR" property = "djdwmc"/>
+		<result column = "DJRXM" jdbcType = "VARCHAR" property = "djrxm"/>
+		<result column = "XGR" jdbcType = "VARCHAR" property = "xgr"/>
+		<result column = "XGSJ" jdbcType = "TIMESTAMP" property = "xgsj"/>
+		<result column = "XGDW" jdbcType = "VARCHAR" property = "xgdw"/>
+		<result column = "XGDWMC" jdbcType = "VARCHAR" property = "xgdwmc"/>
+		<result column = "XGRXM" jdbcType = "VARCHAR" property = "xgrxm"/>
+		<result column = "JKZK" jdbcType = "VARCHAR" property = "jkzk"/>
+		<result column = "SFLY" jdbcType = "VARCHAR" property = "sfly"/>
+		<result column = "BZXX" jdbcType = "VARCHAR" property = "bzxx"/>
+		<result column = "BMJB" jdbcType = "VARCHAR" property = "bmjb"/>
+		<result column = "RYSX" jdbcType = "VARCHAR" property = "rysx"/>
+	</resultMap>
+	<sql id = "Base_Column_List">
+		<!--@mbg.generated-->
+		GLID, RYBH, AJBH, GXRXM, GXRXB, GXRCSRQ, GXRSFZH, GXRCH, GXRHJDQH, GXRZY, GXRLXFS,
+		YXX, GXRLB, DJR, DJSJ, DJDW, DJDWMC, DJRXM, XGR, XGSJ, XGDW, XGDWMC, XGRXM, JKZK,
+		SFLY, BZXX, BMJB, RYSX
+	</sql>
+</mapper>

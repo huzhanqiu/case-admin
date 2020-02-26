@@ -9,19 +9,24 @@
 	<name>case-admin</name>
 	<description>案件管理</description>
 	<properties>
+		<case-admin-auth>0.0.1</case-admin-auth>
+		<case-admin-docase>0.0.1</case-admin-docase>
+		<case-admin-persion>0.0.1</case-admin-persion>
+		<case-admin-common>0.0.1</case-admin-common>
+		<case-admin-gateway>0.0.1</case-admin-gateway>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-		<spring-boot.version>2.1.6.RELEASE</spring-boot.version>
-		<spring-cloud.version>Greenwich.SR2</spring-cloud.version>
-
-		<commons.pool2.version>2.6.0</commons.pool2.version>
+		<spring-boot.version>2.2.2.RELEASE</spring-boot.version>
+		<spring-cloud.version>Hoxton.SR1</spring-cloud.version>
+		<mybatis-spring-boot-starter>2.1.1</mybatis-spring-boot-starter>
+		<commons.pool2.version>2.6.2</commons.pool2.version>
 		<joda.version>2.10.1</joda.version>
-		<spring-cloud-starter-alibaba-nacos-config>2.1.1.RELEASE</spring-cloud-starter-alibaba-nacos-config>
+		<spring-cloud-dependencies>2.1.1.RELEASE</spring-cloud-dependencies>
 		<alibaba.fastjson.version>1.2.62</alibaba.fastjson.version>
 		<alibaba.cloud.version>0.9.0.RELEASE</alibaba.cloud.version>
 		<velocity.engine.core.version>2.1</velocity.engine.core.version>
-		<dynamic.datasource.version>2.5.7</dynamic.datasource.version>
+		<dynamic.datasource.version>3.0.0</dynamic.datasource.version>
 		<druid.spring.version>1.1.21</druid.spring.version>
 		<apache.commons-lang3.version>3.3.2</apache.commons-lang3.version>
 		<apache.commons-io.version>2.5</apache.commons-io.version>
@@ -32,10 +37,24 @@
 		<swagger2.version>2.9.2</swagger2.version>
 		<swagger.bootstrap.version>1.9.4</swagger.bootstrap.version>
 		<swagger2.annotations.version>1.5.22</swagger2.annotations.version>
+		<guava>28.2-jre</guava>
+		<commons-lang3>3.9</commons-lang3>
+		<commons-beanutils>1.9.4</commons-beanutils>
+		<cglib>3.3.0</cglib>
+		<seata>1.0.0</seata>
+		<jasypt.version>2.1.1</jasypt.version>
+		<p6spy>3.8.7</p6spy>
+		<jwt.version>0.9.1</jwt.version>
+		<aspectjrt>1.9.5</aspectjrt>
 	</properties>
 	<modules>
 		<module>case-admin-auth</module>
+		<module>case-admin-docase</module>
+		<module>case-admin-person</module>
+		<module>case-admin-common</module>
+		<module>case-admin-gateway</module>
 	</modules>
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
@@ -49,6 +68,13 @@
 				<groupId>org.springframework.cloud</groupId>
 				<artifactId>spring-cloud-dependencies</artifactId>
 				<version>${spring-cloud.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.alibaba.cloud</groupId>
+				<artifactId>spring-cloud-alibaba-dependencies</artifactId>
+				<version>${spring-cloud-dependencies}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>

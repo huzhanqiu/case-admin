@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminauth.mapper.sys.TSysZdmcMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminauth.entity.sys.TSysZdmc">
+		<!--@mbg.generated-->
+		<!--@Table
+			T_SYS_ZDMC-->
+		<id column = "C_ZDDM" jdbcType = "VARCHAR" property = "cZddm"/>
+		<result column = "C_ZDMC" jdbcType = "VARCHAR" property = "cZdmc"/>
+		<result column = "C_BZ" jdbcType = "VARCHAR" property = "cBz"/>
+		<result column = "C_FJBS" jdbcType = "VARCHAR" property = "cFjbs"/>
+	</resultMap>
+	<sql id = "Base_Column_List">
+		<!--@mbg.generated-->
+		C_ZDDM, C_ZDMC, C_BZ, C_FJBS
+	</sql>
+</mapper>

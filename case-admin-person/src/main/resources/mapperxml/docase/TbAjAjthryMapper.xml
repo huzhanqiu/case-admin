@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace = "com.hzq.nacos.caseadminperson.mapper.docase.TbAjAjthryMapper">
+	<resultMap id = "BaseResultMap" type = "com.hzq.nacos.caseadminperson.entity.docase.TbAjAjthry">
+		<!--@mbg.generated-->
+		<!--@Table
+			TB_AJ_AJTHRY-->
+		<id column = "GLBH" jdbcType = "VARCHAR" property = "glbh"/>
+		<result column = "RYBH" jdbcType = "VARCHAR" property = "rybh"/>
+		<result column = "THBH" jdbcType = "VARCHAR" property = "thbh"/>
+		<result column = "GXBS" jdbcType = "VARCHAR" property = "gxbs"/>
+		<result column = "YXX" jdbcType = "VARCHAR" property = "yxx"/>
+		<result column = "DJSJ" jdbcType = "TIMESTAMP" property = "djsj"/>
+		<result column = "DJDW" jdbcType = "VARCHAR" property = "djdw"/>
+		<result column = "DJR" jdbcType = "VARCHAR" property = "djr"/>
+		<result column = "DJRXM" jdbcType = "VARCHAR" property = "djrxm"/>
+		<result column = "XGSJ" jdbcType = "TIMESTAMP" property = "xgsj"/>
+		<result column = "XGDW" jdbcType = "VARCHAR" property = "xgdw"/>
+		<result column = "XGR" jdbcType = "VARCHAR" property = "xgr"/>
+		<result column = "XGRXM" jdbcType = "VARCHAR" property = "xgrxm"/>
+	</resultMap>
+	<sql id = "Base_Column_List">
+		<!--@mbg.generated-->
+		GLBH, RYBH, THBH, GXBS, YXX, DJSJ, DJDW, DJR, DJRXM, XGSJ, XGDW, XGR, XGRXM
+	</sql>
+</mapper>
